@@ -25,7 +25,7 @@ model User {
 model Token {
   token       String   @unique
   identifier  String?
-  userId      String   @unique
+  userId      String
   type        String
   expires     DateTime
   blacklisted Boolean  @default(false)

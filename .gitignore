@@ -83,7 +83,6 @@ jspm_packages/
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # Prisma
 prisma/dev.db*
@@ -139,7 +138,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -154,3 +152,7 @@ $RECYCLE.BIN/
 ehthumbs.db
 Thumbs.db
 .claude
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
